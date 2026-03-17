@@ -1,0 +1,18 @@
+# AWS GPU instance requirements (g5.2xlarge with NVIDIA A10G)
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+transformers==4.36.2
+accelerate==0.26.1
+bitsandbytes==0.41.3
+peft==0.7.1
+safetensors==0.4.1
+sentencepiece==0.1.99
+tokenizers==0.15.0
+fire==0.6.0
+requests==2.31.0
+psutil==5.9.6
+
+# Optional: for benchmarking
+pytest==7.4.3
+pytest-benchmark==4.0.0
